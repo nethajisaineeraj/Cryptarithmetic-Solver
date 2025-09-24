@@ -1,30 +1,31 @@
 # 🔐 Cryptarithmetic Solver
 
-A Python-based solver for **cryptarithmetic addition puzzles** (e.g., SEND + MORE = MONEY) using **backtracking** and **constraint satisfaction techniques**. The program efficiently maps letters to digits to find valid solutions.  
+A **Python program** that solves **cryptarithmetic addition puzzles** (e.g., SEND + MORE = MONEY) using **backtracking** and **constraint satisfaction**. It maps letters to digits efficiently while keeping the user engaged with **voice-based prompts** during longer computations.  
 
 ---
 
 ## 🛠️ Technologies
-- Python 3.x
+- Python 3.x  
+- pyttsx3 (for voice interaction)  
 
 ---
 
 ## ✨ Features
-- Algorithmic approach for solving complex cryptarithmetic puzzles.
-- **Backtracking & pruning** to optimize computation and reduce time.
-- **Voice-based commands** to keep users engaged during longer computations.
-- Clean, modular Python code for readability and reusability.
+- **Automated Puzzle Solver:** Finds valid digit-to-letter mappings for cryptarithmetic problems.  
+- **Optimized Backtracking:** Skips invalid paths to improve performance.  
+- **Voice Interaction:** Provides real-time feedback and instructions to users, enhancing experience during complex computations.  
+- **User-Friendly:** Modular and readable Python code for easy extension or adaptation.  
 
 ---
 
-## 📌 Problem Example
+## 📌 Example Puzzle
 ```
   SEND
 + MORE
 ------
  MONEY
 ```
-The program finds a valid mapping of letters to digits that satisfies the addition.
+The program computes a valid mapping of letters to digits that satisfies the addition.  
 
 ---
 
@@ -39,7 +40,7 @@ git clone https://github.com/your-username/cryptarithmetic-solver.git
 cd cryptarithmetic-solver
 ```
 
-3. Install dependencies (if any, e.g., for voice commands):
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -51,22 +52,20 @@ python cryptarithmetic.py
 
 ---
 
-## 🎤 Voice Commands
-- Users can interact via voice to input puzzles or receive status updates while the program calculates solutions.
-- Enhances usability and keeps users engaged during time-consuming computations.
+## 🎤 Voice Interaction
+- The program uses voice commands to ask for input and provide progress updates.  
+- Helps users stay engaged while the algorithm explores multiple combinations.  
 
 ---
 
-## 📚 Learning Outcomes
-- Strengthened **algorithm design** and **problem-solving** skills.
-- Gained hands-on experience with **backtracking** and **constraint satisfaction techniques**.
-- Learned to integrate **voice-based user interaction** into Python applications.
+## 📚 Learnings
+- How to implement **backtracking** and **constraint satisfaction algorithms**.  
+- Understanding of **time complexity** and performance optimization in recursive programs.  
+- Integration of **voice-based interaction** to enhance user experience.  
+- Real-world application of algorithmic thinking in Python.  
 
 ---
 
 ## 🧑‍💻 Author
-
 **👤 Sai Neeraj Mahanthi**  
 - GitHub: [nethajisaineeraj](https://github.com/nethajisaineeraj)
-
----
